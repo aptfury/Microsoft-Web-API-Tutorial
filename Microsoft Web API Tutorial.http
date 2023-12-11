@@ -1,0 +1,11 @@
+@Microsoft_Web_API_Tutorial_HostAddress = http://localhost:5218
+
+GET {{Microsoft_Web_API_Tutorial_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{Microsoft_Web_API_Tutorial_HostAddress}}/todos/1
+Accept: application/json
+
+###
