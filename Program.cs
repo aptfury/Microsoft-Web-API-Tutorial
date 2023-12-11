@@ -1,6 +1,6 @@
 using System.Text.Json.Serialization;
 
-var builder = WebApplication.CreateSlimBuilder(args);
+/* var builder = WebApplication.CreateSlimBuilder(args);
 
 builder.Services.ConfigureHttpJsonOptions(options =>
 {
@@ -32,4 +32,21 @@ public record Todo(int Id, string? Title, DateOnly? DueBy = null, bool IsComplet
 internal partial class AppJsonSerializerContext : JsonSerializerContext
 {
 
-}
+} */
+
+var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddCors(options => { });
+
+var app = builder.Build();
+app.MapGet("/", () => "Hello World!");
+app.UseCors("some unique string as a test string");
+
+/**
+ * From Tutorial:
+ * Middleware is usually code that intercepts the request and carries out checks like checking for authentication or ensuring the client is allowed
+ * to perform this operation according to CORS. After the middleware is done executing, the actual request is carried out. Data is either read or
+ * written to the store and a response is sent back to the calling client.
+ */
+
+app.Run();
