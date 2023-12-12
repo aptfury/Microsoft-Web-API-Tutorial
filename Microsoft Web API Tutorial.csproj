@@ -9,4 +9,57 @@
     <PublishAot>true</PublishAot>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Include="obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net8.0\Microsoft Web API Tutorial.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0\Microsoft Web API Tutorial.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net8.0\Microsoft Web API Tutorial.MvcApplicationPartsAssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net8.0\appsettings.Development.json" />
+    <Content Include="bin\Debug\net8.0\appsettings.json" />
+    <Content Include="bin\Debug\net8.0\Microsoft Web API Tutorial.deps.json" />
+    <Content Include="bin\Debug\net8.0\Microsoft Web API Tutorial.runtimeconfig.json" />
+    <Content Include="obj\Debug\net8.0\Microsoft Web API Tutorial.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net8.0\Microsoft Web API Tutorial.sourcelink.json" />
+    <Content Include="obj\Debug\net8.0\staticwebassets.build.json" />
+    <Content Include="obj\Microsoft Web API Tutorial.csproj.nuget.dgspec.json" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net8.0\Microsoft Web API Tutorial.dll" />
+    <None Include="bin\Debug\net8.0\Microsoft Web API Tutorial.exe" />
+    <None Include="bin\Debug\net8.0\Microsoft Web API Tutorial.pdb" />
+    <None Include="bin\Debug\net8.0\Microsoft.OpenApi.dll" />
+    <None Include="bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll" />
+    <None Include="bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll" />
+    <None Include="bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll" />
+    <None Include="obj\Debug\net8.0\apphost.exe" />
+    <None Include="obj\Debug\net8.0\Microsoft Web API Tutorial.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net8.0\Microsoft Web API Tutorial.assets.cache" />
+    <None Include="obj\Debug\net8.0\Microsoft Web API Tutorial.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net8.0\Microsoft Web API Tutorial.csproj.BuildWithSkipAnalyzers" />
+    <None Include="obj\Debug\net8.0\Microsoft Web API Tutorial.csproj.CopyComplete" />
+    <None Include="obj\Debug\net8.0\Microsoft Web API Tutorial.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net8.0\Microsoft Web API Tutorial.dll" />
+    <None Include="obj\Debug\net8.0\Microsoft Web API Tutorial.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net8.0\Microsoft Web API Tutorial.genruntimeconfig.cache" />
+    <None Include="obj\Debug\net8.0\Microsoft Web API Tutorial.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Include="obj\Debug\net8.0\Microsoft Web API Tutorial.pdb" />
+    <None Include="obj\Debug\net8.0\refint\Microsoft Web API Tutorial.dll" />
+    <None Include="obj\Debug\net8.0\ref\Microsoft Web API Tutorial.dll" />
+    <None Include="obj\Debug\net8.0\staticwebassets\msbuild.build.Microsoft Web API Tutorial.props" />
+    <None Include="obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Microsoft Web API Tutorial.props" />
+    <None Include="obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Microsoft Web API Tutorial.props" />
+    <None Include="obj\Microsoft Web API Tutorial.csproj.nuget.g.props" />
+    <None Include="obj\Microsoft Web API Tutorial.csproj.nuget.g.targets" />
+    <None Include="obj\project.nuget.cache" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
 </Project>
